@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://kit.fontawesome.com/52676eb1e5.js" crossorigin="anonymous"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunset Network | Home</title>
+    <script src="/lf.js"></script>
+    <link rel="shortcut icon" type="x-icon" href="Icons/logo.png">
+    <script async src="https://arc.io/widget.min.js#KpYQhCTB"></script>
+    <link href="/style.css" rel="stylesheet" type="text/css">
+    <script src="settings.js" defer></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PWD8SS29YZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-PWD8SS29YZ');
+    </script>
+
+<body class="home">
+
+    <div class="navbar">
+        <img src="Icons/logo.png" alt="Sunset Logo " id="logo">
+        <a href="/index.html"><i class="fa-solid fa-house fa-2xl">&nbsp;</i>Home</a>
+        <a href="/games.html"><i class="fa-solid fa-gamepad fa-2xl">&nbsp;</i>Apps</a>
+        <a href="/discord.html"><i class="fa-brands fa-discord fa-2xl">&nbsp;</i>Discord</a>
+        <a href="/roadmap.html"><i class="fa-solid fa-map fa-2xl">&nbsp;</i>Roadmap</a>
+        <a href="/settings.html"><i class="fa-solid fa-gear fa-2xl">&nbsp;</i>Settings</a>
+        <a href="/developers&partners.html"><i class="fa-solid fa-users fa-2xl">&nbsp;</i>Developers</a>
+    </div>
+
+    <div class="adfixe">
+        <h1 class="pname">Sunset Network</h1>
+
+        <form class="hvr-bounce-in" id="uv-form">
+            <input class="hvr-bounce-in" id="uv-search-engine" value="https://www.google.com/search?q=%s"
+                type="hidden" />
+            <input class="proxy" id="uv-address" type="text" placeholder="Enter a URL or Search" class="form__input" />
+        </form>
+
+        <p class="abttxt">
+            Experience the future of internet browsing with Sunset Network your secure and private web proxy
+            solution.
+            <br> With advanced encryption, ad blocking, and lightning-fast speeds, browse the web with
+            confidence
+            and
+            ease. <br> Try Sunset Network today for a seamless online experience like never before!
+        </p>
+
+        <div class="center">
+            <a href="https://billing.billigerhost.com/aff.php?aff=84"> 
+                <img src="/Icons/IMG_3175.gif">
+            </a>
+        </div>
+
+        <div class="SNdiscordlayout">
+            <p class="SNdiscinv">
+                <a href="https://discord.gg/JFkQseF4BT" target="_blank">
+                    JOIN THE <br><span class="SNdiscord">DISCORD</span>
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="/index.js" defer></script>
+    <script src="hotkey.js"></script>
+    <script>
+        __uv$config.sw;
+    </script>
+</body>
+
+</html
